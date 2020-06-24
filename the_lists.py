@@ -124,3 +124,25 @@ print(price)
 doubleprice = [n * 2 for n in price]
 print(doubleprice)
 
+# ! Riassunto
+'''
+_______________________________________________________________
+SLICING :
+lista = lista[:]  # copy
+lista[2:6]  /  list[2:]    /  lista[:5]   # part of list
+lista[2:2]  # insert an element at the position 2
+lista[2:3]  # delete an element from the position 2
+________________________________________________________________
+METHODS :
+insert(2, 'uova')
+remove('uova')
+pop(1)   /   pop()  # default = last index
+append()
+extend()
+count('uova')
+index('uova')
+reverse()
+sort()
+_________________________________________________________________
+'''
+
