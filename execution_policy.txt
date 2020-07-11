@@ -1,0 +1,14 @@
+# For Windows in virtualenv:
+
+Managing the execution policy with PowerShell:
+
+Get-ExecutionPolicy -List
+Get-ExecutionPolicy -Scope CurrentUser
+
+Change the execution policy:
+
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+Remove the execution policy:
+
+Set-ExecutionPolicy -ExecutionPolicy Undefined -Scope CurrentUser
