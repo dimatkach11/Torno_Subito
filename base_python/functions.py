@@ -107,7 +107,7 @@ print(ord('A'))
 # * execute the function passed as the first parameter, using the values taken from the next iterable parameters and returns an iterable
 def add(a,b,c):
    return a+b+c
-for n in map(add, [1,2,4,5], [5,6,3], [10,20]): # fa 1+5+6 ed 2+6+20
+for n in map(add, [1,2,4,5], [5,6,3], [10,20]): # fa 1+5+10 ed 2+6+20
    print(n)
 
 # * ZIP :
